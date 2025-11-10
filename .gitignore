@@ -1,0 +1,40 @@
+# --------------------
+# 1. Arquivos de Sistema Operacional (macOS, Windows, Linux)
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# 2. Arquivos de Ambiente Python
+# --------------------
+venv/
+env/
+.venv/
+.python-version
+pip-log.txt
+pip-delete-this-log.txt
+.tox/
+
+# --------------------
+# 3. Arquivos de Compilação e Distribuição
+
+__pycache__/
+*.pyc
+
+# Pacotes de distribuição
+dist/
+build/
+*.egg-info/
+
+# --------------------
+# 4. Arquivos do VS Code
+
+.vscode/
+
+# --------------------
+# 5. Arquivos de Áudio e Dados Temporários
+# --------------------
+*.wav
+*.mid
+*.midi
+*.log
