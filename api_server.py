@@ -4,7 +4,7 @@ from synthConfig import KEY_BASE_MIDI, ENVELOPE, FORMA_ONDA, REVERB, DELAY
 
 app = Flask(__name__)
 
-@app.route('api/chord/<int:grau>', methods=['GET'])
+@app.route('/api/chord/<int:grau>', methods=['GET'])
 def get_chord_notes(grau):
     
     tipo_modulacao = request.args.get('mod') #pega o tipo da mudulaçao
