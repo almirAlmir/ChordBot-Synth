@@ -1,0 +1,10 @@
+# requirements.txt
+# Executar pip install -r requirements.txt
+
+#
+# --- Servidor Web / Framework ---
+Flask==2.3.3
+
+# --- Extras - Só descomentar se for necessario
+# python-dotenv  # Útil para gerenciar variáveis de ambiente (KEY_BASE_MIDI, etc.)
+# gunicorn       # Servidor WSGI para produção (se for fazer deploy)
